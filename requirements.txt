@@ -2,6 +2,5 @@ fastapi
 uvicorn
 pandas
 scikit-learn
-sentence-transformers
 mistralai
-onnxruntime  # force it to skip torch/tensorflow
+
