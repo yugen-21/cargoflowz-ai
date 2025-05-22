@@ -8,6 +8,8 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",  # Local frontend
     "https://cargo-flowz-frontend-deploy.vercel.app/",  # Production frontend
+    "https://admin.cargoflowz.com",
+    "https://main.d2mfwhn26nhgf4.amplifyapp.com"
 ]
 
 # Add CORS middleware
